@@ -1,12 +1,10 @@
+styles.css
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
 
 :root {
     --laranja-claro: #FF862A;
-    --alto contraste-fundo: #000000;
-    --alto contraste-texto: #ffffff;
-    --alto contraste-link: #ffd700;
- }
+}
 
 body {
     font-size: 1rem;
@@ -64,7 +62,9 @@ section {
     border-radius: 30px;
     border: none;
     width: 14em;
+    /* Convertido para em aumenta o tamanho da fonte por tabela*/
     height: 3em;
+    /* Convertido para em */
     align-content: center;
 
 }
@@ -137,6 +137,7 @@ h2 {
     font-weight: bold;
 }
 
+/* chama classe do bootstrap para modificar a cor */
 .form-control {
     background-color: #F1EDEF;
 }
@@ -146,15 +147,17 @@ h2 {
     right:20px;
     z-index: 1000;
 }
-.rotacao-botao{
+
+.rotacao-botao {
     transform: rotate(-90deg);
-    transform-origin: right center;
+    transform-origin:right center;
 }
 
-.opcoes-acessibilidade{
-    margin-top:10px;
-    display: flex;
-    flex-direction: column;
+.opcoes-acessibilidade {
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+
 }
 
 .opcoes-acessibilidade button{
@@ -164,33 +167,3 @@ h2 {
 .apresenta-lista{
     display: none;
 }
-
-.alto contraste{
-    background-color: var(--alto-contraste-fundo);
-    color: var(--alto-contraste-texto);
-}
-
-.alto contraste header,
-.alto contraste footer,
-.alto contraste .formulario{
-    background color: color var(--alto-contraste-fundo);
-    color: var(--alto-contraste-texto);
-}
-
-.alto contraste .nav-link{
-    color: var(alto--contrasto-link);
-}
-
-.alto contraste .botao-inicio
-.alto contraste .formulario button,
-alto contraste ..btn-primary{
-    background-color: var(--alto-contraste-link);
-    color: var(--alto-contraste-fundo)
-}
-
-.alto-contraste #tropicalia {
-    background: nome;
-{
-
-.alto contraste #galeria {
-    background-color: var(--alto-contraste-fundo);
